@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mood Wallpaper</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #wallpaper-preview {
+      width: 100%;
+      height: 150px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>Choose Your Mood</h2>
+  <button id="happy">Happy</button>
+  <button id="calm">Calm</button>
+  <button id="focused">Focused</button>
+  <button id="relaxed">Relaxed</button>
+  <div id="wallpaper-preview"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
